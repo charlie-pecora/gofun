@@ -1,0 +1,27 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Go Fun</title>
+  <meta name="description" content="Something fun while learning go">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="/static/styles.css">
+
+</head>
+
+<body>
+  <h1>A Small Game in Golang</h1>
+  <p>Instructions:</p>
+  <div id="game-grid" class="container"></div>
+  <script>
+    var userId = "{{.UserId}}";
+    var gridHeight = "{{.Grid.Height}}";
+    var gridWidth = "{{.Grid.Width}}";
+  </script>
+  <script src="/static/scripts.js"></script>
+</body>
+</html>

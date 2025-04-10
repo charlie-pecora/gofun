@@ -1,0 +1,31 @@
+ body {
+  background-color: #1e1e2e;
+}
+h1 {
+  color: #b4befe;
+}
+p {
+  color: #89dceb;
+}
+#game-grid {
+  color: #89dceb;
+  padding: 2px;
+  display: grid;
+  columnGap: 5px;
+  rowGap: 5px;
+}
+
+#game-grid > div {
+  border: 1px solid black;
+  padding: 2px;
+  font-size: 10px;
+  text-align: center;
+}
+
+div.empty-location {
+  background-color: #1e1e3e;
+}
+
+div.current-location {
+  background-color: #9e1e3e;
+}
